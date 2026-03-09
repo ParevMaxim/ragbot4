@@ -1,20 +1,24 @@
-﻿.venv/
-__pycache__/
-*.pyc
-build/
-dist/
-data/kb/
-*.pkl
-*.lnk
-*.html
-.env
-
-# extra
-dist/
-build/
+﻿# venv
 .venv/
 
+# python cache
+__pycache__/
+*.pyc
+
+# PyInstaller artifacts (anywhere)
+**/build/
+**/dist/
+
+# local KB (indices)
+data/kb/
+*.pkl
 
 # binaries
 *.exe
+*.lnk
 
+# downloaded test html (optional)
+*.html
+
+# env (usually local)
+.env
