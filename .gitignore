@@ -2,23 +2,28 @@
 .venv/
 
 # python cache
-__pycache__/
+**/__pycache__/
 *.pyc
 
-# PyInstaller artifacts (anywhere)
+# PyInstaller artifacts
 **/build/
 **/dist/
+*.spec
 
-# local KB (indices)
+# local KB (vectorized data)
 data/kb/
 *.pkl
 
-# binaries
+# binaries / archives
 *.exe
+*.zip
 *.lnk
 
-# downloaded test html (optional)
+# downloaded test docs
 *.html
 
-# env (usually local)
+# local env
 .env
+
+# installer assets (там будет собранный exe приложения)
+installer_assets/
